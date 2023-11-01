@@ -1,0 +1,120 @@
+.header{
+    background-color: #000324;
+}
+
+.imgsize{
+    height: 100px;
+    width: 143px;
+    
+        
+}
+
+.cen{
+    display: flex;
+    justify-content: center;
+}
+.back1{
+  background-image: url(../assets/header.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.s{
+    position: relative;
+  }
+  
+  .s .logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: .8;
+    background-color: #000324;
+    padding-top: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+  .textcen{
+    text-align: center;
+  }
+  
+  .s .background {
+    /* background-image: url(../assets/header.jpg); */
+    width: 100%;
+    /* width: 100vw; */
+    height: 500px;
+  }
+
+ /* .hampic{
+    /* margin-top: 100px; 
+    margin-left: 30px;
+    height: 400px;
+}  */
+.navbar-custom {
+    background-color: cadetblue;
+}
+
+.hamtext{
+    text-align: left;
+}
+
+.award{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.back{
+  background-image: url(../assets/bg2.jpg);
+  height: 750px;
+}
+.cardss{
+ height: 100%;
+ width: 40px;
+} 
+
+
+.pad{
+  padding-top: 10%;
+}
+.picss{
+  height: 300px;
+  width: 650px;
+  display: flex;
+  justify-content: end;
+}
+.picsss{
+  height: 300px;
+  width: 650px;
+  display: flex;
+  justify-content: start;
+}
+
+.backss{
+  background-image: url(../assets/bg.jpg);
+  height: 548px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.footer{
+  background-color: #000324;
+}
+
+.t{
+  width: 100px;
+  height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -334,12 +334,15 @@ top: 230%;
 
 
 }
+.q11{
+  display: none !important;
+}
 .six{
 column-fill: 6;
 }
 
 .card{
-  width: 10px
+  width: 10px;
 }
 
 .te{

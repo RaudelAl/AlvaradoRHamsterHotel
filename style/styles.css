@@ -195,6 +195,9 @@
 .inv{
   color: #000324;
 }
+.pfive{
+  text-align: center;
+}
 
 
 
@@ -249,7 +252,7 @@ top: 230%;
 
 .back{
   background-image: url(../assets/bg2.jpg);
-  height: 1000px;
+  height: 1200px;
 }
 .checka{
   text-align: center;
@@ -278,15 +281,20 @@ top: 230%;
   height: 170px;
   width: 100px;
 }
-.input-box {
-  width: 50px;
-  height: 50px;
+
+
+.q111{
+  display: none !important;
+}
+
+.cenn{
+  display: flex;
+  justify-content: center;
 }
 
 }
 
-
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 575px) and (min-width: 375px){
 
   .ss{
     height: 50px;
@@ -337,6 +345,7 @@ top: 230%;
 .q11{
   display: none !important;
 }
+
 .six{
 column-fill: 6;
 }
@@ -373,6 +382,68 @@ padding: 5%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.tsizee{
+  font-size: 25px;
+  padding-left: 48px;
+}
+
+.tsize2{
+  font-size: 13px;
+  padding-left: 48px;
+}
+
+.t1{
+  position: absolute;
+width: auto;
+display: flex;
+justify-content: center;
+top: 160%;
+left: 10%;
+  /* padding-top: 50%; */
+}
+
+.t2{
+  position: absolute;
+width: auto;
+display: flex;
+justify-content: center;
+top: 200%;
+left: 10%;
+  /* padding-top: 50%; */
+}
+.t3{
+  position: absolute;
+width: auto;
+display: flex;
+justify-content: center;
+top: 240%;
+left: 10%;
+  /* padding-top: 50%; */
+}
+
+.back{
+  background-image: url(../assets/bg2.jpg);
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+}
+
+.imgsize{
+  height: 60px;
+  width: 80px;
+  
+      
+}
+.pfive{
+  font-size: 10px;
+}
+
+.input-box {
+  width: 40%;
+  height: 30px;
 }
 
 
